@@ -1,0 +1,41 @@
+
+
+.MainBackground{
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightskyblue;
+}
+.rules{
+    height: 80vh;
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.ImgCaptainSuperman{
+    width:25%;
+}
+
+.ImgCaptainAmerica{
+    width: 25%;
+}
+
+.BackButton{
+    width: 10rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    background-color: lightskyblue;
+    border: none;
+
+    box-shadow: 2px 2px 2px cornflowerblue;
+}
+
+.rules p {
+    font-size: 2rem;
+}

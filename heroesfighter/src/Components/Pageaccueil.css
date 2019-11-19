@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color:blue;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image:url('https://zupimages.net/up/19/43/d71r.jpeg');
+    position: fixed;
+}
+
+.title {
+    color: lightskyblue;
+    font-size: 30px;
+    padding: 18%;
+    text-shadow: 2px 4px 5px white;
+}
+
+.buttonacces, .buttonrule {
+    font-size: 1rem;
+    color: black;
+    background-color: lightskyblue;
+    width: 10rem;
+    padding: 0.5rem;
+    border: solid 5px  lightskyblue;
+    font-weight: bold;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px cornflowerblue;
+    margin-left: 25%;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 10%;
+}
+
+.buttonrule a, .buttonacces a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.Cards{
+    width: 21em;
+    height: 36em;
+    padding: 1rem;
+    border: 2px solid black;
+    display: flex flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    border: 5px inset navy;
+    box-shadow: 0 8px 16px 0;
+    background-image: url('https://img.hebus.com/hebus_2005/11/12/preview/051112151134_99.jpg');
+    color: navy;
+    background-size: cover;
+}
+.Header{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    height: 19%;
+} 
+.Name {
+    font-size: 2.4rem;
+    width: 100%;
+    text-shadow: 1px 1px 3px purple;
+    margin: 0;
+} 
+.Power{
+    font-size: 1.3em;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.Power img{
+    margin: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.Middle{
+    display: flex;
+    height: 68%;
+}
+
+.MyLife {
+    height: 13%;
+    margin-top: 0.9rem;
+}
+
+.Attributs{
+    display: flex;
+    width: 28%;
+    justify-content: center;
+   
+}
+
+.Attributs img{
+    width : 3rem;
+}
+
+.Attributs ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.Image{
+    max-height: 21em;
+    margin-top: 20px;
+    margin-left: 10px;
+    border : 5px  inset navy;
+    margin-bottom: 1rem;
+    background-color: black;
+    border-radius: 1rem;
+}
+
+.avatar {
+    border-radius: 1rem;
+    max-width: 16em;
+    max-height: 21em;
+}
+.BoxPowerLogo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.PowerLogoOff {
+    visibility: hidden;
+}
+
+.MyLife p {
+    font-size: 88%;
+    line-height: 16px;
+    margin-bottom: 0;
+}
